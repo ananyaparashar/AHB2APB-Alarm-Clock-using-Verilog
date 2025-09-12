@@ -8,12 +8,12 @@ This project implements a Real-Time Clock (RTC) with Alarm functionality connect
 - Memory-mapped register interface for easy integration.
 - Testbench with APB read/write tasks and simulation using $value$plusargs.
 
-## Working
+## Working procedure
 1. The RTC increments seconds, minutes, and hours on each clock cycle.
 2. The APB interface allows writing alarm hour and minute registers.
 3. When RTC == ALARM, alarm_irq is asserted, and the status register is set.
 4. Testbench uses $value$plusargs for user-defined alarm time.
 
-## Some pointers
+### Note
 - The input for the alarm clock is taken through the testbench. For simulation purposes it is set to 1 minute. This can be changed later.
 - This project was simulated on edaplayground.com with Icarus Verilog
