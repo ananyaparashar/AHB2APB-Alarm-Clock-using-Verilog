@@ -94,5 +94,4 @@ The following waveform shows the alarm interrupt (`alarm_irq`) asserting when th
 
 ---
 
-## Key Takeaways
-This project demonstrates a **verification-first approach** to RTL development, focusing on protocol correctness, functional validation, and systematic debugging — skills directly relevant to **ASIC Design Verification roles**.
+
